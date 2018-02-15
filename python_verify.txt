@@ -1,0 +1,19 @@
+PYTHON:              
+Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)]
+['C:\\Python\\DLLs', 'C:\\Python\\lib', 'C:\\Python', 'C:\\Python\\lib\\site-packages']
+                    
+ASSOC:              
+.py=Python.File
+.pyc=Python.CompiledFile
+.pyd=Python.Extension
+.pyo=Python.CompiledFile
+.pyw=Python.NoConFile
+.pyz=Python.ArchiveFile
+.pyzw=Python.NoConArchiveFile
+                    
+FTYPE:              
+Python.ArchiveFile="C:\Windows\py.exe" "%L" %*
+Python.CompiledFile="C:\Windows\py.exe" "%L" %*
+Python.File="C:\Windows\py.exe" "%L" %*
+Python.NoConArchiveFile="C:\Windows\pyw.exe" "%L" %*
+Python.NoConFile="C:\Windows\pyw.exe" "%L" %*
