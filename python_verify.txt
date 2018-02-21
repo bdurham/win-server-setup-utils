@@ -1,6 +1,6 @@
 PYTHON:              
 Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)]
-['C:\\Python\\DLLs', 'C:\\Python\\lib', 'C:\\Python', 'C:\\Python\\lib\\site-packages']
+['C:\\udp\\python\\DLLs', 'C:\\udp\\python\\lib', 'C:\\udp\\python', 'C:\\udp\\python\\lib\\site-packages']
                     
 ASSOC:              
 .py=Python.File
