@@ -1,3 +1,4 @@
 @echo off
-REM pythonw.cmd (alias for pyw.exe)
+REM pythonw.cmd
+REM Alias for pyw.exe
 pyw %*
