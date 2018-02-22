@@ -22,8 +22,13 @@ print(f'Connection string: {db_connection_str}')
 conn =  psycopg2.connect(db_connection_str)
 cursor = conn.cursor()
 cursor.execute('select * from groups')
+print(cursor.description)
+for col in cursor.description:
+    print(col.name)
+
 for row in cursor:
-    print(row)
+    # print(row)
+    pass
 
 # cleanup
 cursor.close()
